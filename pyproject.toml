@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yannvitwo-compress_jd453"
+version = "0.1.0"
+description = "通过字符级与结构级特征识别模型压缩工程师·拒答边界与过度拒答的痕迹，给出密度与命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "yannvitwo" }]
+keywords = ["llm", "cli", "analysis", "observability"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://yannvitwo.github.io"
+Repository = "https://github.com/yannvitwo/compress_jd453"
+Issues = "https://github.com/yannvitwo/compress_jd453/issues"
+
+[project.scripts]
+compress_jd453 = "compress_jd453:main"
+
+[tool.setuptools]
+py-modules = ["compress_jd453"]
