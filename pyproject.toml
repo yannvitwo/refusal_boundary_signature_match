@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "yannvitwo-compress_jd453"
+name = "yannvitwo-refusal_boundary_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别模型压缩工程师·拒答边界与过度拒答的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://yannvitwo.github.io"
-Repository = "https://github.com/yannvitwo/compress_jd453"
-Issues = "https://github.com/yannvitwo/compress_jd453/issues"
+Repository = "https://github.com/yannvitwo/refusal_boundary_signature_match"
+Issues = "https://github.com/yannvitwo/refusal_boundary_signature_match/issues"
 
 [project.scripts]
-compress_jd453 = "compress_jd453:main"
+refusal_boundary_signature_match = "refusal_boundary_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["compress_jd453"]
+py-modules = ["refusal_boundary_signature_match"]
